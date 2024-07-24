@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.app{
+    height: 78vh;
+    width: 51vh;
+    border: 10px solid black;
+    justify-items: center;
+    border-radius: 1vh;
+    padding: 1vh 2vh;
+
+}
+h4 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 4px 7px black;
+    margin-bottom: 16px;
+}
+i.fa-sharp.fa-solid.fa-plus {
+    font-size: xx-large;
+    color: #000;
+}
+.addNew {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.5vh;
+    padding: 6px 10px;
+    color: rgba(22, 22, 23, 0.762);
+    cursor: pointer;
+}
+ h5 {
+    font-size: larger;
+    font-family: system-ui;
+    display: flex;
+    padding: 3vh 1vh; 
+} 
+div#tasks {
+    display: grid;
+    gap: 2vh;
+}
+div#tasks div {
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    padding: 3vh 3vh;
+    border-radius: 1vh;
+    display: grid;
+    gap: 0.7vh;
+}
+span.edit-delete {
+    cursor: pointer;
+    direction: rtl;
+    font-size: x-large;
+}
+.edit:hover {
+    color: rgb(181, 8, 8);
+    font-size: 3.3vh;
+  }
+  .edits:hover{
+    color: blue;
+    font-size: 3.3vh;
+  }
+  
+span.task-1-2 {
+    font-size: medium;
+    font-family: fantasy;
+}
+.task-1-2:hover{
+    font-size: x-large;
+  }
+span.date {
+    color: darkcyan;
+    font-family: monospace;
+}
