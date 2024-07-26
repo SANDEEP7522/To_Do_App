@@ -5,29 +5,37 @@
 }
 body{
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .app{
+    margin-top: 3vh;
     height: 78vh;
     width: 51vh;
-    border: 10px solid black;
     justify-items: center;
     border-radius: 1vh;
     padding: 1vh 2vh;
-
+    overflow-y: scroll;
+    box-shadow: -1px 7px 36px blue, 10px 6px 20px rgb(184, 63, 63), 15px 9px 28px rgb(98, 159, 98);
+}
+.app::-webkit-scrollbar {
+    display: none;
 }
 h4 {
     font-size: xx-large;
     display: flex;
     justify-content: center;
     text-shadow: 2px 4px 7px black;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 i.fa-sharp.fa-solid.fa-plus {
     font-size: xx-large;
     color: #000;
 }
 .addNew {
-    background-color: antiquewhite;
+    background-color: rgb(244, 242, 238);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +55,7 @@ div#tasks {
     gap: 2vh;
 }
 div#tasks div {
-    background-color: antiquewhite;
+    background-color:  rgb(244, 242, 238);
     border: 2px solid gray;
     padding: 3vh 3vh;
     border-radius: 1vh;
@@ -56,7 +64,7 @@ div#tasks div {
 }
 span.edit-delete {
     cursor: pointer;
-    direction: rtl;
+ 
     font-size: x-large;
 }
 .edit:hover {
@@ -78,4 +86,7 @@ span.task-1-2 {
 span.date {
     color: darkcyan;
     font-family: monospace;
+}
+#msg-tesk-title{
+    color: #f00;
 }
